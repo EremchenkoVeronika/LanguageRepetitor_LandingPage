@@ -1,0 +1,30 @@
+.films-div{
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+}
+    .films-block{
+        display: flex;
+    }
+    .film1{
+        background-color: #00887A;
+    }
+    .check-list{
+        background: #77A6F6;
+    }
+    .prob1{
+        color: #F5F5F5;
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .text-prob1{
+            width: 600px;
+        }
+        .textik{
+            color: #000000;
+        }
+        .image-film{
+            border-radius: 25px;
+        }
