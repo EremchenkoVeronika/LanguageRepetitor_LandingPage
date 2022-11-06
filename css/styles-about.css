@@ -1,33 +1,38 @@
-.container{
-    max-width: 1440px;
+.photo-and-privet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
 }
-    .photo-and-privet{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 60px;
+    .title-black{
+        text-align: center;
+        font-size: 48px;
     }
-        .title-hello{
-            font-weight: 700;
-            font-size: 45px;
-            line-height: 60px;
-            color: #000000;
-            text-transform: none;
-        }
-        .photo{
-            width: 767px;
-            height: 568px;
-            border: 5px solid #00887A;
-            border-radius: 25px;
-        }
-    .about-me{
-        max-width: 1000px;
-        
+    .photo{
+        width: 767px;
+        height: 568px;
+        border-radius: 25px;
+        border: 5px solid #00887A;
     }
-        .margin-about-me{
-            margin-top: 60px;
-            margin-bottom: 100px;
-        }
-    .container-about-me{
-        margin-bottom: 100px;
+.about-me-container{
+    display: flex;
+    align-items: center;
+    background-color: #00887A;
+    max-width: 1000px;
+    border-radius: 25px;
+    margin: 60px auto 100px auto
+}
+
+    .text-block{
+        font-size: 35px;
+        line-height: 50px;
+        color: #F5F5F5;
+        padding: 40px;
+        text-align: center;
+    }
+.another-colour{
+    background-color: #FFCCBC;
+}
+    .another-colour-text{
+        color: #000000;
     }

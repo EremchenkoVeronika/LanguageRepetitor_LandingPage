@@ -1,30 +1,37 @@
-.films-div{
-    width: 1200px;
+.text-and-image-section{
     display: flex;
-    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 150px auto;
+    border-radius: 25px;
 }
-    .films-block{
-        display: flex;
-    }
-    .film1{
+    .films{
         background-color: #00887A;
     }
+    .vocabulary{
+        background-color: #FFCCBC;
+    }
     .check-list{
-        background: #77A6F6;
+        background-color: #77A6F6;
     }
-    .prob1{
-        color: #F5F5F5;
-        text-align: left;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-        .text-prob1{
-            width: 600px;
+        .text-and-image{
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 1000px;
         }
-        .textik{
-            color: #000000;
-        }
-        .image-film{
-            border-radius: 25px;
-        }
+            .text{
+                font-weight: 400;
+                font-size: 30px;
+                line-height: 50px;
+            }
+                .white{
+                    color: #F5F5F5; 
+                }
+                .black{
+                    color: #000000;
+                }
+                    .link:hover{
+                        
+                    }

@@ -1,0 +1,46 @@
+.description-and-price-section{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    margin: 44px auto;
+    border-radius: 25px;
+}
+    .online{
+        background-color: #77A6F6;
+    }
+    .offline{
+        background-color: #00887A;
+    }
+    .group{
+        background-color: #FFCCBC;
+    }
+        .title-and-description-price{
+            display: flex;
+            flex-direction: column;
+            width: 1000px;
+            padding: 40px;
+        }
+            .title{
+                font-size: 35px;
+                margin: 0;
+                text-align: center;
+            }
+            .black{
+                color: #000000;
+            }
+            .white{
+                color: #F5F5F5;
+            }
+                .description-and-price{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                    .description{
+                        margin: 0;
+                        font-size: 30px;
+                    }
+                    .price{
+                        font-size: 40px;
+                    }

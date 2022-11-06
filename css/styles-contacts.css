@@ -1,0 +1,27 @@
+.title-and-contacts{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    align-items: center;
+    margin: 44px auto;
+    border-radius: 25px;
+    background-color: #00887A;
+    padding: 40px;
+    color: #F5F5F5;
+}
+    .title{
+        font-size: 35px;
+        text-align: left;
+    }
+    .list{
+        font-size: 30px;
+        list-style: none;
+        text-align: center;
+    }
+
+
+.footer-fixed{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
